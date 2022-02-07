@@ -1,0 +1,96 @@
+﻿h1{
+  color:black;
+  font-family:georgia;
+}
+body{
+  background-color:pink;
+  font-size:18px;
+  padding:40px;
+}
+.d1{
+  float:right;
+  padding:90px;
+  border-radius:8px;
+  background-color:white;
+  color:purple;
+  box-shadow:5px 5px 10px #ccc;
+  width:52%;
+  margin:20px;
+  box sizing:border-box;
+  }
+.d1::before{
+  content='';
+  background-color:deeppink;
+  display:block;
+  width:40px;
+  height:10px;
+  }
+.d2{
+  
+  float:right;
+  color:purple;
+  padding:40px;
+  border-radius:8px;
+  background-color:#fff;
+  box-shadow:5px 5px 10px #ccc;
+  text-align:left;
+  width:69%;
+  box-sizing:border-box;
+  }
+.d2 h2{
+  margin-top:0;
+  }
+  .d2::after{
+  content='*';
+  background-color:deeppink;
+  display:block;
+  width:40px;
+  height:20px;
+  }
+.d3{
+  float:left;
+  font-size:15px;
+  color:purple;
+  width:27%;
+  border-radius:15px;
+  padding:60px 25px;
+  background-color:white;
+  box-shadow:5px 5px 10px #ccc;
+  text-align:left;
+  box-sizing:border-box;
+  }
+.d5{
+  float:left;
+  font-size:15px;
+  color:purple;
+  width:27%;
+  border-radius:15px;
+  padding:25px;
+  background-color:white;
+  box-shadow:5px 5px 10px #ccc;
+  text-align:left;
+  box-sizing:border-box;
+  }
+.d5 table{
+  column-width:40%;
+  }
+ .d5 img{
+  border-radius: 50%;
+  }
+
+.button{
+  color:purple;
+  padding:10px;
+  border-radius:8px;
+  background-color:#fff;
+  box-shadow:5px 5px 10px #ccc;
+  text-align:left;
+  width:50px;
+  box-sizing:border-box;
+  }
+.button:hover{
+  border:3px solid purple;
+  cursor:pointer;
+  background-color:white;
+  }
+
